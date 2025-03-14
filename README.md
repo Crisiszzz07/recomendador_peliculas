@@ -31,10 +31,12 @@ Este proyecto es un sistema de recomendación de películas construido usando Fa
    ```bash
    python -m venv venv
 On Windows:
+    ```bash
     venv\Scripts\activate
 On macOS/Linux:
     source venv/bin/activate
 4. **Install the required packages:**
+    ```bash
     pip install -r requirements.txt
 5. **Run the backend server:**
     uvicorn main:app --reload
