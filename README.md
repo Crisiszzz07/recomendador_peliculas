@@ -33,8 +33,12 @@ Este proyecto es un sistema de recomendación de películas construido usando Fa
 On Windows:
     ```bash
     venv\Scripts\activate
+
 On macOS/Linux:
+    ```bash  
     source venv/bin/activate
+
+    
 4. **Install the required packages:**
     ```bash
     pip install -r requirements.txt
